@@ -1,6 +1,6 @@
 <html>
 <div align="center">
-<img src="https://i.ibb.co/wCtpT00/logo.jpg" alt="alt text" width="300" height="300"></img>
+<img src="https://i.ibb.co/wCtpT00/logo.jpg" alt="alt text" width="350" height="300"></img>
 </div>
 <h1 align="center">@danielaceros
 <div align="center">
@@ -12,7 +12,7 @@
 </html>
 
 # ubicapp
-Te ayudamos a encontrar tu camino, allá donde quieras ir, allá donde quieras estar
+Te ayudamos a encontrar tu camino, allá donde quieras ir, allá donde quieras estar.
   
 ## License
 [GPL](https://choosealicense.com/licenses/gpl-3.0/)
