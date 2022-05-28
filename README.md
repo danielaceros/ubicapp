@@ -1,6 +1,6 @@
 <html>
 <div align="center">
-<img src="https://i.ibb.co/wCtpT00/logo.jpg" alt="alt text" width="350" height="300"></img>
+<img src="https://i.ibb.co/wCtpT00/logo.jpg" alt="alt text" width="400" height="400"></img>
 </div>
 <h1 align="center">@danielaceros
 <div align="center">
