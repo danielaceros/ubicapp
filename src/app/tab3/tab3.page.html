@@ -1,0 +1,38 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Mi Cuenta
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-card>
+    <ion-card-header>
+      <ion-card-subtitle style="border-radius: 50%;">
+        <ion-img style="border-radius: 50%;" src="https://media-exp1.licdn.com/dms/image/C4D03AQH-k2GcV3BMqw/profile-displayphoto-shrink_200_200/0/1605712314715?e=1657152000&v=beta&t=1wdyHCZryb4X0uQHtMdak2zulBlfG2NhOt4JiqyM0d0"></ion-img>
+        <br>
+        @nuriserol
+      </ion-card-subtitle>
+      <ion-card-title>Nuria Segovia Roldán</ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content style="font-size:15px;">
+      <strong>Email:</strong> nuriserol@gmail.com
+      <br>
+      <strong>Edad:</strong> 21 años
+      <br>
+      <strong>Plan:</strong> Premium
+    </ion-card-content>
+  </ion-card>
+  <div style="padding-bottom:5%;"></div>
+  <span>
+    <br>
+    <ion-button color="light" style="margin-left:1%; margin-bottom:3%; width:92%" (click)="help()">
+      <ion-icon name="help-buoy-outline" color="primary" style="margin-right:10px;"></ion-icon>
+      <ion-text style="color:black;">Ayuda</ion-text></ion-button>
+    <br>
+  </span>
+  <div id="card-form"><input type="hidden" id="token" >
+    <input type="hidden" id="errorCode" ></div>
+</ion-content>

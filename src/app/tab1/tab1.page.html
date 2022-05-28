@@ -1,0 +1,30 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Home
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+    <ion-text color="primary" font-weight="500">
+      <h1>Bienvenido/a a UBICA</h1>
+    </ion-text>
+    <ion-text style="margin-bottom:2%;" color="dark">
+      <h2>¿En qué podemos ayudarte?</h2>
+    </ion-text>
+  <span>
+    <ion-button color="light" (click)="toprofesional()">  
+      <ion-icon name="search" color="primary" style="margin-right:10px;"></ion-icon>
+      <ion-text style="color:rgb(0, 0, 0);">Busca a Profesionales</ion-text></ion-button>
+    <ion-button color="light" (click)="toubicame()">
+      <ion-icon name="help" color="primary" style="margin-right:10px;"></ion-icon>
+      <ion-text style="color:rgb(0, 0, 0);">Ubícame</ion-text></ion-button>
+    <ion-button color="light" (click)="tocontent()">
+      <ion-icon name="videocam" color="primary" style="margin-right:10px;"></ion-icon>
+      <ion-text style="color:rgb(0, 0, 0);">Vídeos</ion-text></ion-button>
+    <ion-button color="light" (click)="totest()">
+      <ion-icon name="document" color="primary" style="margin-right:10px;"></ion-icon>
+      <ion-text style="color:rgb(0, 0, 0);">Test</ion-text></ion-button>
+  </span> 
+</ion-content>
